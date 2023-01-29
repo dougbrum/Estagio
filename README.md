@@ -1,7 +1,6 @@
 <h1 align="center">
  <img src="banner-git-e-github-ninja.jpg" />
 </h1>
-fonte do banner: https://blog.da2k.com.br/curso-git-e-github-ninja/
 
 ### :technologist: Git/GitHub do fundamental ao Avançado
 
@@ -48,3 +47,5 @@ E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de E
 
 ![](icone-github-violet.png) 
 
+fonte do banner: https://blog.da2k.com.br/curso-git-e-github-ninja/
+fonte imagem: https://icones.pro/pt/icone-do-github-simbolo-do-logotipo-png-roxo/
