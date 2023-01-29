@@ -2,18 +2,20 @@
 
 Este repo contem boa parte da prática que foi executada durante o curso de _GIT/GitHub_ da plataforma Udemy vinculada ao programa de bolsa da Compass.UOL.
 
+##
+
 Dentre muitas coisas aprendidas, podemos listar as 10 seções que o curso abrange:
 
-1.__Introdução e instalação das dependências;__
-2.__Git fundamental;__
-3.__Trabalhando com Branches;__
-4.__Compartilhamento e atualização de repositórios;__
-5.__Análise e inspeção de repositórios;__
-6.__Administração de repositórios;__
-7.__Melhorando os commits do projeto;__
-8.__Explorando e entendendo o GitHub;__
-9.__Markdown do básico ao avançado;__
-10.__Projeto: Portfólio com GitHub pages;__
+1. __Introdução e instalação das dependências;__
+2. __Git fundamental;__
+3. __Trabalhando com Branches;__
+4. __Compartilhamento e atualização de repositórios;__
+5. __Análise e inspeção de repositórios;__
+6. __Administração de repositórios;__
+7. __Melhorando os commits do projeto;__
+8. __Explorando e entendendo o GitHub;__
+9. __Markdown do básico ao avançado;__
+10. __Projeto: Portfólio com GitHub pages;__
 
 Com a **seção 1** pude aprender sobre a instalação do GIT e VSCODE em Windows e Linux, além dos conceitos principais que viriam pela frente ao logo do curso.
 
