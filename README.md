@@ -47,5 +47,6 @@ E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de E
 
 ![](icone-github-violet.png) 
 
-fonte do banner: https://blog.da2k.com.br/curso-git-e-github-ninja/
-fonte imagem: https://icones.pro/pt/icone-do-github-simbolo-do-logotipo-png-roxo/
+###### fonte do banner: https://blog.da2k.com.br/curso-git-e-github-ninja/
+
+###### fonte imagem: https://icones.pro/pt/icone-do-github-simbolo-do-logotipo-png-roxo/
