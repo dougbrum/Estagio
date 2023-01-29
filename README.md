@@ -25,9 +25,9 @@ Já na **seção 3** foi a hora de aprender mais sobre as ramificações do proj
 
 Com as **seções 4**, **5** e **6** pude aprender mais como se dá o fluxo do dia a dia de trabalho em um projeto em equipe, com várias branches e um Dev líder responsável pela atualização na branch main. Nessas seções ainda pude conhecer o reflog e enteder a sua diferença com relação ao log.
 
-Até então por mais que eu tentasse fazer bons commits, não havia percebi o real valor de commits bem explicados e objetivos. A **seção 7** trata desse tema e alḿe disso nos ajuda a administrar e enxugar a quantidade de commits usando private branches.
+Até então por mais que eu tentasse fazer bons commits, não havia percebi o real valor de commits bem explicados e objetivos. A **seção 7** trata desse tema e além disso nos ajuda a administrar e enxugar a quantidade de commits usando private branches.
 
-A **seção 8** foi de suma importancia para entender cada funcionalidade contida no GITHUB. Por exemplo, para esta atividade precisamos vinvular esse repositório a um colaborador, e o como fazer isso só ficou claro nessa aula.
+A **seção 8** foi de suma importância para entender cada funcionalidade contida no _GitHub_. Por exemplo, para esta atividade precisamos vincular esse repositório a um colaborador, e o como fazer isso só ficou claro nessa aula.
 
 Sem a **seção 9** ficaria bastante complicado fazer esse README, já que ele é um arquivo markdow e essa seção trata justamente desse assunto.
 
