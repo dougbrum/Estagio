@@ -2,7 +2,7 @@
  <img src="png-transparent-symphony-background-poster-banner-science-and-technology-science-fiction.png" />
 </h1>
 
-### Git/GitHub do fundamental ao Avançado
+### :technologist: Git/GitHub do fundamental ao Avançado
 
 Este repo contem boa parte da prática que foi executada durante o curso de _GIT/GitHub_ da plataforma Udemy vinculada ao programa de bolsa da Compass.UOL.
 
@@ -37,7 +37,7 @@ Sem a **seção 9** ficaria bastante complicado fazer esse README, já que ele �
 
 A última seção é a cereja do bolo, pois nos ensina a fazer o GitHub Page, onde podemos gratuitamente alocar uma página da web como nosso portfólio e chamando atenção para os projetos contidos no GitHub.
 
-## Agradecimentos
+##  :octocat: Agradecimentos
 
 É importante pontuar que a colaboração da minha squad foi muito importante, pela troca diária ao longo dessa primeira Sprint.
 
