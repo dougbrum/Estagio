@@ -1,31 +1,42 @@
 ### Git/GitHub do fundamental ao Avançado
 
-Este repo contem boa parte da prática que foi executada durante o curso de _GIT/GitHub_ da plataforma Udemy vinculada ao programa de bolsa da Compass.Uol.
+Este repo contem boa parte da prática que foi executada durante o curso de _GIT/GitHub_ da plataforma Udemy vinculada ao programa de bolsa da Compass.UOL.
 
 Dentre muitas coisas aprendidas, podemos listar as 10 seções que o curso abrange:
 
-* __Introdução e instalação das dependências;__
-* __Git fundamental;__
-* __Trabalhando com Branches;__
-* __Compartilhamento e atualização de repositórios;__
-* __Análise e inspeção de repositórios;__
-* __Administração de repositórios;__
-* __Melhorando os commits do projeto;__
-* __Explorando e entendendo o GitHub;__
-* __Markdown do básico ao avançado;__
-* __Projeto: Portfólio com GitHub pages;__
+1.__Introdução e instalação das dependências;__
+2.__Git fundamental;__
+3.__Trabalhando com Branches;__
+4.__Compartilhamento e atualização de repositórios;__
+5.__Análise e inspeção de repositórios;__
+6.__Administração de repositórios;__
+7.__Melhorando os commits do projeto;__
+8.__Explorando e entendendo o GitHub;__
+9.__Markdown do básico ao avançado;__
+10.__Projeto: Portfólio com GitHub pages;__
 
-Com esse curso pude passar por várias etapas do aprendizado de _GIT/GitHub_. Começamos com a instalação do _GIT_ e a criação de uma conta no _GitHub_, em seguida pude aprender muito sobre 
-comandos fundamentais do _GIT_, tais como: _**git init**_, _**git add**_, _**git commit -a -m**_ seguida da mensagem de commit, _**git pull**_ e _**git push**_, dentre outras. 
+Com a **seção 1** pude aprender sobre a instalação do GIT e VSCODE em Windows e Linux, além dos conceitos principais que viriam pela frente ao logo do curso.
 
-Conforme os comando fundamentais foram vistos e consolidados pude aprender sobre ramificações do projeto, mais conhecidas como branches. Sempre que um repositório é criado,também é criado uma branch main(ou master). 
+Na **seção 2** pude consolidar muitos comandos importantes como: _git init_, _git add_, _git commit_, _git clone_, _git push_, _git pull_, entre outros. Foi nessa seção que criei o repositório no _GitHub_ e me conectei localmente atraves do _**VSCODE**_ com o meu repositório local.
 
-Em um grande projeto, os membros de uma equipe ficam responsáveis por alguma ou algumas funcionalidades e para que isso seja realizado de forma funcional, é importante trabalhar com branch. É possível criar branch ou trocar de branch usando o comando _**git checkout**_ a criação ou troca vai
-depender do uso ou não da flag -b. Foi possível aprender, ainda, que para visualizar uma branch que não foi de minha própria criação, basta dar um _**git fetch -a**_.
+Já na **seção 3** foi a hora de aprender mais sobre as ramificações do projeto, as branches. Como criá-las, como mudar de uma branch para outra e como unir duas branches através do git merge foram alguns dos pontos que pude exercitar e me aprofundar nessa seção.
 
-De forma pessoal, a parte mais interessante foi entender o fluxo que ocorre numa equipe, onde se tem um Dev responsável por fazer o merge da main com os branches dos componentes da equipe. E como esse fluxo de git pull para se atulizar com relação a main e git push para atulizar as branch no repositório funcionam.
+Com as **seções 4**, **5** e **6** pude aprender mais como se dá o fluxo do dia a dia de trabalho em um projeto em equipe, com várias branches e um Dev líder responsável pela atualização na branch main. Nessas seções ainda pude conhecer o reflog e enteder a sua diferença com relação ao log.
 
-Não posso deixar de comentar que já havia visto um pouco de _GIT/GitHub_ por minha própria conta, pesquisando na internet. No entanto, das vezes que utilizei nunca tinha feito essa
-comunicação com o VSCODE. Gostei bastante de utilizar esse editor de código. Ele é prático, tem cores que diferencia um aquivo motificado de um untracked, por exemplo.
+Até então por mais que eu tentasse fazer bons commits, não havia percebi o real valor de commits bem explicados e objetivos. A **seção 7** trata desse tema e alḿe disso nos ajuda a administrar e enxugar a quantidade de commits usando private branches.
+
+A **seção 8** foi de suma importancia para entender cada funcionalidade contida no GITHUB. Por exemplo, para esta atividade precisamos vinvular esse repositório a um colaborador, e o como fazer isso só ficou claro nessa aula.
+
+Sem a **seção 9** ficaria bastante complicado fazer esse README, já que ele é um arquivo markdow e essa seção trata justamente desse assunto.
+
+A última seção é a cereja do bolo, pois nos ensina a fazer o GitHub Page, onde podemos gratuitamente alocar uma página da web como nosso portfólio e chamando atenção para os projetos contidos no GitHub.
+
+## Agradecimentos
+
+Acredito ser importante pontuar que colaboração da minha squad foi muito importante, pela troca diária ao longo dessa primeira Sprint.
+
+A Compass.UOL o meu muito obrigado pela oportunidade de aprendizado e crescimento profissional.
+
+E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de Estágio.
 
 ![](GitHub-Mark.png) 
