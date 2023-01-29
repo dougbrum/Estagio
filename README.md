@@ -1,6 +1,7 @@
 <h1 align="center">
- <img src="png-transparent-symphony-background-poster-banner-science-and-technology-science-fiction.png" />
+ <img src="banner-git-e-github-ninja.jpg" />
 </h1>
+
 
 ### :technologist: Git/GitHub do fundamental ao Avançado
 
@@ -46,3 +47,5 @@ A Compass.UOL o meu muito obrigado pela oportunidade de aprendizado e cresciment
 E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de Estágio o meu agradecimento.
 
 ![](icone-github-violet.png) 
+
+###### fonte do banner: https://blog.da2k.com.br/curso-git-e-github-ninja/
