@@ -35,10 +35,10 @@ A última seção é a cereja do bolo, pois nos ensina a fazer o GitHub Page, on
 
 ## Agradecimentos
 
-Acredito ser importante pontuar que colaboração da minha squad foi muito importante, pela troca diária ao longo dessa primeira Sprint.
+É importante pontuar que a colaboração da minha squad foi muito importante, pela troca diária ao longo dessa primeira Sprint.
 
 A Compass.UOL o meu muito obrigado pela oportunidade de aprendizado e crescimento profissional.
 
-E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de Estágio.
+E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de Estágio o meu agradecimento.
 
 ![](GitHub-Mark.png) 
