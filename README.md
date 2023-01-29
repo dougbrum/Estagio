@@ -1,3 +1,6 @@
+<h1 align="center">
+ <img src="png-transparent-symphony-background-poster-banner-science-and-technology-science-fiction.png" />
+</h1>
 ### Git/GitHub do fundamental ao Avançado
 
 Este repo contem boa parte da prática que foi executada durante o curso de _GIT/GitHub_ da plataforma Udemy vinculada ao programa de bolsa da Compass.UOL.
