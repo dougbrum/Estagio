@@ -41,4 +41,4 @@ A Compass.UOL o meu muito obrigado pela oportunidade de aprendizado e cresciment
 
 E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de Estágio o meu agradecimento.
 
-![](GitHub-Mark.png) 
+![](icone-github-violet.png) 
