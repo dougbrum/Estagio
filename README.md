@@ -45,8 +45,8 @@ A Compass.UOL o meu muito obrigado pela oportunidade de aprendizado e cresciment
 
 E ao Marcus que direcionou a mim e a equipe nessa primeira fase do programa de Estágio o meu agradecimento.
 
-![](icone-github-violet.png) 
+![](GitHub-Mark.png) 
 
 ###### fonte do banner: https://blog.da2k.com.br/curso-git-e-github-ninja/
 
-###### fonte imagem: https://icones.pro/pt/icone-do-github-simbolo-do-logotipo-png-roxo/
+###### fonte imagem: https://www.flaticon.com/br/icone-gratis/logotipo-do-github_25231
