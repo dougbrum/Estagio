@@ -27,6 +27,8 @@ Dentre muitas coisas aprendidas, podemos listar as 10 seções que o curso abran
 9. __Markdown do básico ao avançado;__
 10. __Projeto: Portfólio com GitHub pages;__
 
+Cada seção foi gradualmente construindo a ideia de como se trabalhar com Git/GitHub em equipe em um porjeto, posso destacar abaixo resumidamente o que aprendi em cada momento da jornada:
+
 * Com a **seção 1** pude aprender sobre a instalação do GIT e VSCODE em Windows e Linux, além dos conceitos principais que viriam pela frente ao logo do curso.
 
 * Na **seção 2** pude consolidar muitos comandos importantes como: _git init_, _git add_, _git commit_, _git clone_, _git push_, _git pull_, entre outros. Foi nessa seção que criei o repositório no _GitHub_ e me conectei localmente atraves do _**VSCODE**_ com o meu repositório local.
