@@ -27,21 +27,21 @@ Dentre muitas coisas aprendidas, podemos listar as 10 seções que o curso abran
 9. __Markdown do básico ao avançado;__
 10. __Projeto: Portfólio com GitHub pages;__
 
-Com a **seção 1** pude aprender sobre a instalação do GIT e VSCODE em Windows e Linux, além dos conceitos principais que viriam pela frente ao logo do curso.
+* Com a **seção 1** pude aprender sobre a instalação do GIT e VSCODE em Windows e Linux, além dos conceitos principais que viriam pela frente ao logo do curso.
 
-Na **seção 2** pude consolidar muitos comandos importantes como: _git init_, _git add_, _git commit_, _git clone_, _git push_, _git pull_, entre outros. Foi nessa seção que criei o repositório no _GitHub_ e me conectei localmente atraves do _**VSCODE**_ com o meu repositório local.
+* Na **seção 2** pude consolidar muitos comandos importantes como: _git init_, _git add_, _git commit_, _git clone_, _git push_, _git pull_, entre outros. Foi nessa seção que criei o repositório no _GitHub_ e me conectei localmente atraves do _**VSCODE**_ com o meu repositório local.
 
-Já na **seção 3** foi a hora de aprender mais sobre as ramificações do projeto, as branches. Como criá-las, como mudar de uma branch para outra e como unir duas branches através do git merge foram alguns dos pontos que pude exercitar e me aprofundar nessa seção.
+* Já na **seção 3** foi a hora de aprender mais sobre as ramificações do projeto, as branches. Como criá-las, como mudar de uma branch para outra e como unir duas branches através do git merge foram alguns dos pontos que pude exercitar e me aprofundar nessa seção.
 
-Com as **seções 4**, **5** e **6** pude aprender mais como se dá o fluxo do dia a dia de trabalho em um projeto em equipe, com várias branches e um Dev líder responsável pela atualização na branch main. Nessas seções ainda pude conhecer o reflog e enteder a sua diferença com relação ao log.
+* Com as **seções 4**, **5** e **6** pude aprender mais como se dá o fluxo do dia a dia de trabalho em um projeto em equipe, com várias branches e um Dev líder responsável pela atualização na branch main. Nessas seções ainda pude conhecer o reflog e enteder a sua diferença com relação ao log.
 
-Até então por mais que eu tentasse fazer bons commits, não havia percebi o real valor de commits bem explicados e objetivos. A **seção 7** trata desse tema e além disso nos ajuda a administrar e enxugar a quantidade de commits usando private branches.
+* Até então por mais que eu tentasse fazer bons commits, não havia percebi o real valor de commits bem explicados e objetivos. A **seção 7** trata desse tema e além disso nos ajuda a administrar e enxugar a quantidade de commits usando private branches.
 
-A **seção 8** foi de suma importância para entender cada funcionalidade contida no _GitHub_. Por exemplo, para esta atividade precisamos vincular esse repositório a um colaborador, e o como fazer isso só ficou claro nessa aula.
+* A **seção 8** foi de suma importância para entender cada funcionalidade contida no _GitHub_. Por exemplo, para esta atividade precisamos vincular esse repositório a um colaborador, e o como fazer isso só ficou claro nessa aula.
 
-Sem a **seção 9** ficaria bastante complicado fazer esse README, já que ele é um arquivo markdow e essa seção trata justamente desse assunto.
+* Sem a **seção 9** ficaria bastante complicado fazer esse README, já que ele é um arquivo markdow e essa seção trata justamente desse assunto.
 
-A última seção é a cereja do bolo, pois nos ensina a fazer o GitHub Page, onde podemos gratuitamente alocar uma página da web como nosso portfólio e chamando atenção para os projetos contidos no GitHub.
+* A última seção é a cereja do bolo, pois nos ensina a fazer o GitHub Page, onde podemos gratuitamente alocar uma página da web como nosso portfólio e chamando atenção para os projetos contidos no GitHub.
 
 ##  :octocat: Agradecimentos
 
