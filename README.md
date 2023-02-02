@@ -4,9 +4,16 @@
 
 ### :technologist: Git/GitHub do fundamental ao Avançado
 
-Este repo contem boa parte da prática que foi executada durante o curso de _GIT/GitHub_ da plataforma Udemy vinculada ao programa de bolsa da Compass.UOL.
+Este repo contem como registro um pouco do muito que foi aprendido durante o curso de _GIT/GitHub_ da plataforma Udemy Bussiness vinculada ao programa de bolsa da Compass.UOL durante a Sprint 1.
 
 ##
+
+## A trilha conta com 11 seções, sendo a última apenas o encerramento do curso.
+
+<h1 align="center">
+ <img src="Sprint_1_git.png" />
+</h1>
+
 
 Dentre muitas coisas aprendidas, podemos listar as 10 seções que o curso abrange:
 
