@@ -8,8 +8,7 @@ Este repo contem como registro um pouco do muito que foi aprendido durante o cur
 
 ##
 
-## A trilha conta com 11 seções, sendo a última apenas o encerramento do curso.
-
+## A trilha 
 <h1 align="center">
  <img src="Sprint_1_git.png" />
 </h1>
