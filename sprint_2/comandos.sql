@@ -180,3 +180,30 @@ considerando todas as vendas armazenadas na base de dados com status concluído.
 
 As colunas presentes no resultado devem ser vendedor, valor_total_vendas e comissao.
  O valor de comissão deve ser apresentado em ordem decrescente arredondado na segunda casa decimal. */
+
+
+with dados_basicos as (
+select 	ven.qtd AS quantidade,
+		ven.vrunt AS valor_unitario,
+		(ven.qtd * ven.vrunt) AS total_de_vendas,
+		(vdd.perccomissao *0.01) as percvv,
+		vdd.nmvdd as vendedor,
+		SUM((ven.qtd * ven.vrunt))as valor_total_de_vendas
+
+		
+from tbvendas as ven
+inner join tbvendedor as vdd
+on vdd.cdvdd = ven.cdvdd 
+where status = 'Concluído'
+GROUP by vendedor
+
+) 
+
+select db.vendedor as vendedor,
+		db.valor_total_de_vendas as valor_total_de_vendas,
+		Round(db.valor_total_de_vendas *db.percvv,2) as comissao
+
+from dados_basicos as db
+order by comissao desc
+
+
