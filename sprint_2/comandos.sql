@@ -207,3 +207,69 @@ from dados_basicos as db
 order by comissao desc
 
 
+
+/*
+E11
+Apresente a query para listar o código e nome cliente com maior gasto na loja. 
+As colunas presentes no resultado devem ser cdcli, nmcli e gasto, esta última 
+representando o somatório das vendas (concluídas) atribuídas ao cliente.*/
+
+with gastos as (
+
+SELECT cdcli,
+		nmcli,
+		SUM(qtd * vrunt) as soma_dos_gastos
+		
+from tbvendas 
+group by cdcli
+ORDER by soma_dos_gastos DESC
+)
+
+select gas.cdcli,
+		gas.nmcli,
+		MAX(gas.soma_dos_gastos) as gasto
+from gastos as gas
+
+/*
+ E12
+Apresente a query para listar código, nome e data de nascimento dos dependentes do vendedor
+com menor valor total bruto em vendas (não sendo zero). As colunas presentes no resultado 
+devem ser cddep, nmdep, dtnasc e valor_total_vendas.
+
+Observação: Apenas vendas com status concluído. */
+
+
+with vendas_brutas as (
+select 	ven.qtd AS quantidade,
+		ven.vrunt AS valor_unitario,
+		(ven.qtd * ven.vrunt) AS total_de_vendas,
+		vdd.cdvdd,
+		SUM((ven.qtd * ven.vrunt))as valor_total_vendas
+
+		
+from tbvendas as ven
+inner join tbvendedor as vdd
+on vdd.cdvdd = ven.cdvdd 
+where status = 'Concluído'
+GROUP by vdd.cdvdd
+
+) , valor_bruto_min as (
+
+SELECT 	dep.cddep, 
+		dep.nmdep, 
+		dep.dtnasc,
+		MIN( vb.valor_total_vendas) as valor_bruto_min
+
+from vendas_brutas as vb
+left join tbdependente as dep
+	on vb.cdvdd = dep.cdvdd
+where vb.valor_total_vendas is not null
+
+)
+
+SELECT 	cddep, 
+		nmdep, 
+		dtnasc,
+		valor_bruto_min as valor_total_vendas
+
+from valor_bruto_min
