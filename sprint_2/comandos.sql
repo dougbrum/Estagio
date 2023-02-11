@@ -273,3 +273,77 @@ SELECT 	cddep,
 		valor_bruto_min as valor_total_vendas
 
 from valor_bruto_min
+
+
+
+--E14
+--Apresente a query para listar o gasto médio por estado da federação.
+-- As colunas presentes no resultado devem ser estado e gastomedio.
+-- Considere apresentar a coluna gastomedio arredondada na segunda casa decimal
+-- e ordenado de forma decrescente.
+
+--Observação: Apenas vendas com status concluído.
+
+WITH gasto_medio AS (
+
+		SELECT estado,
+				SUM (qtd * vrunt) AS gasto,
+				COUNT (qtd) AS contagem_produto
+		FROM tbvendas 
+		WHERE status = 'Concluído'
+		GROUP BY estado
+)
+
+SELECT 	estado, 
+		ROUND (1.0 * gasto/contagem_produto, 2) AS gastomedio
+FROM gasto_medio
+ORDER BY gastomedio DESC
+
+
+
+
+--E15
+--Apresente a query para listar os códigos das vendas identificadas como deletadas.
+-- Apresente o resultado em ordem crescente.
+
+
+
+SELECT cdven
+from tbvendas 
+WHERE deletado = 1
+ORDER BY cdven 
+
+
+
+--E16
+--Apresente a query para listar a quantidade média vendida de cada produto agrupado por estado da federação.
+--As colunas presentes no resultado devem ser estado e nmprod e quantidade_media. 
+--Considere arredondar o valor da coluna quantidade_media na quarta casa decimal.
+-- Ordene os resultados pelo estado (1º) e nome do produto (2º).
+
+--Obs: Somente vendas concluídas.
+WITH calculo_media as (
+		SELECT 
+				estado,
+				nmpro,
+				qtd,
+				COUNT(qtd) AS contagem_produto,
+				sum(qtd) AS total_produto
+		FROM tbvendas 
+		where status = 'Concluído'
+		group by estado,nmpro  
+
+)
+
+select estado,
+		nmpro,
+		ROUND(1.0 * total_produto/contagem_produto, 4) as quantidade_media
+		
+from calculo_media
+order by estado, nmpro
+
+
+
+
+
+
