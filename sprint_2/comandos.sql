@@ -200,7 +200,7 @@ GROUP by vendedor
 ) 
 
 select db.vendedor as vendedor,
-		db.valor_total_de_vendas as valor_total_de_vendas,
+		db.valor_total_de_vendas as valor_total_vendas,
 		Round(db.valor_total_de_vendas *db.percvv,2) as comissao
 
 from dados_basicos as db
