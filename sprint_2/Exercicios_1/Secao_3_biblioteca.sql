@@ -70,7 +70,6 @@ WITH quant_livros AS (
 
 		SELECT 	autor.codautor,
 				autor.nome,
-				autor.nascimento,
 				COUNT(livro.titulo) AS quantidade
 		FROM autor 
 		LEFT JOIN livro 
