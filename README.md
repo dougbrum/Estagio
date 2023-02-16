@@ -15,7 +15,6 @@ Curso Engenharia de software pela UniCesumar, mas me formei anteriormente em mat
 
 Este repo contem como registro um pouco do muito que foi aprendido durante o curso de _GIT/GitHub_ da plataforma Udemy Bussiness vinculada ao programa de bolsa da Compass.UOL durante a Sprint 1.
 
-##
 
 ## A trilha 
 <h1 align="center">
