@@ -17,9 +17,6 @@ Este repo contem como registro um pouco do muito que foi aprendido durante o cur
 
 
 ## A trilha 
-<h1 align="center">
- <img src="Sprint_1_git.png" />
-</h1>
 
 
 Dentre muitas coisas aprendidas, podemos listar as 10 seções que o curso abrange:
