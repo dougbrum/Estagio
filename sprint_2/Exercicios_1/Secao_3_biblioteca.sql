@@ -75,7 +75,6 @@ WITH quant_livros AS (
 		LEFT JOIN livro 
 			ON autor.codautor = livro.autor 
 		GROUP BY autor.nome 
-		ORDER BY nome
 
 )
 
