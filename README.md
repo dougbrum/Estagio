@@ -4,8 +4,6 @@
 Olá! Me chamo Douglas, sou nascido no região dos lagos do Rio, mas moro desde 2014 em Niterói.
 Curso Engenharia de software pela UniCesumar, mas me formei anteriormente em matemática. Gosto de praia, natureza, cantar e a cada dia que passa tenho me interessado mais por tecnologia, em particular pela área de dados.
 
-##
-
 
 <h1> Sprint 1</h1>
 
