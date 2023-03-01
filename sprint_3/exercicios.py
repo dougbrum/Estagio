@@ -157,9 +157,10 @@ for i, nome in enumerate(primeirosNomes):
 
 duplicatas =  ['abc', 'abc', 'abc', '123', 'abc', '123', '123']
 
-unicos = list(set(duplicatas))
+def remove_duplicatas(f):
+    return list(set(f))
 
-print(unicos)
+print(remove_duplicatas(duplicatas))
 
 #E11
 #Escreva um programa que lê o conteúdo do arquivo texto arquivo_texto.txt e imprime o seu conteúdo.
