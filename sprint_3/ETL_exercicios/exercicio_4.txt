@@ -1,0 +1,25 @@
+#Q4 O nome do(s) filme(s) mais frequente(s) e sua respectiva frequência.
+"""Criando lista de filmes"""
+filmes = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")
+    if len(lista) ==6:
+        filmes.append(lista[4])
+    else:
+        filmes.append(lista[5])
+"""Eliminando o cabeçalho"""
+filmes.pop(0)
+"""Podemos usar a função abaixo para retornar o filme que aparece com maior frequencia"""
+def mais_frequente(filmes): 
+    return max(set(filmes), key = filmes.count)
+  
+print(mais_frequente(filmes)) 
+"""Depois de descobrir qual éo filme, basta usá-lo para varer a lista e contabilizar sua frequência"""
+
+cont = 0
+for i in filmes:
+    if i == 'The Avengers':
+        cont = cont +1
+        
+print(cont)

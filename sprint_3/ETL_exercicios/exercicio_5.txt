@@ -1,0 +1,51 @@
+#Q5 A lista dos Autores ordenada por pagamento. Do mais bem pago para o menos bem pago
+""" Código para pegar somente a coluna de atores no formato lista """
+filmes = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")
+    if len(lista) ==6:
+        filmes.append(lista[0])
+    else:
+        filmes.append(lista[1])
+"""Uso do comando pop para retirar o cabeçalho"""
+filmes.pop(0)
+filmes[4] = filmes[4].replace(' Jr."','Robert Downey Jr')
+
+"""Código para pegar somente a coluna de total gross, aqui chamada de lista pagamento"""
+
+pagamento = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")
+    if len(lista)==6:
+        pagamento.append(lista[1])
+    else:
+        pagamento.append(lista[2])
+    
+""" Retirada do cabeçalho para podermos trabalhar com os numeros apenas"""    
+pagamento.pop(0)
+
+""" Retirando espaços finais e iniciais nas strings"""
+pagamento = [string.strip() for string in pagamento if string.strip() != ""]
+
+"""Transformando as strings em float"""
+
+pagamento = [float(string) for string in pagamento]
+
+"""usando sort para ordenar a lista de float do maior para o menor"""
+
+pagamento.sort(reverse = True)
+
+"""Depois de ordenada transformando os elemento em string para poder encontrar os indices"""
+
+pagamento = [str(num) for num in pagamento]
+
+"""A ideia aqui é pegar a lista de pagamentos ja ordenada da forma que desejamos e linkar indice a indece a lista de nome de atores."""
+atores_mais_pagos = []
+for valor in pagamento:
+    index = pagamento.index(valor)
+    ator = lista_nomes[index]
+    atores_mais_pagos.append(ator)
+
+print(atores_mais_pagos)

@@ -1,0 +1,19 @@
+#Q2.A média do número de filmes por autor.
+filmes = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")
+    if len(lista) ==6:
+        filmes.append(lista[2])
+    else:
+        filmes.append(lista[3])
+
+filmes.pop(0)
+
+quantidade_filmes= []
+for i in range(len(filmes)):
+    quantidade_filmes = quantidade_filmes + [int(filmes[i].strip())]
+    
+    
+media = sum(quantidade_filmes)/len(quantidade_filmes)
+print(media)

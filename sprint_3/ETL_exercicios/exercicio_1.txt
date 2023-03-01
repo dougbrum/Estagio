@@ -1,0 +1,32 @@
+#Q1.O ator/atriz com maior número de filmes e o respectivo número de filmes.
+lista_nomes = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")[0]
+    lista_nomes = lista_nomes + [lista]
+    
+lista_nomes.pop(0)
+
+
+quantidade = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")
+    if len(lista)==6:
+        quantidade.append(lista[2])
+    else:
+        quantidade.append(lista[3])
+    
+    
+quantidade.pop(0)
+
+num_filmes= []
+for i in range(len(quantidade)):
+    num_filmes = num_filmes + [int(quantidade[i].strip())]
+    
+    
+max(num_filmes)
+
+print(max(num_filmes))
+
+lista_nomes[quantidade.index('79')]

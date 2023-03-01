@@ -1,0 +1,32 @@
+#Q3.O ator/atriz com a maior média por filme.
+lista_nomes = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")[0]
+    lista_nomes = lista_nomes + [lista]
+    
+lista_nomes.pop(0)
+
+
+quantidade = []
+arquivo_csv = open('actors.csv', 'r')
+for linha in arquivo_csv:
+    lista = linha.split(",")
+    if len(lista)==6:
+        quantidade.append(lista[3])
+    else:
+        quantidade.append(lista[4])
+    
+    
+quantidade.pop(0)
+
+media_filmes= []
+for i in range(len(quantidade)):
+    media_filmes = media_filmes + [float(quantidade[i].strip())]
+    
+    
+max(media_filmes)
+
+print(max(media_filmes))
+
+lista_nomes[media_filmes.index(451.80)]
