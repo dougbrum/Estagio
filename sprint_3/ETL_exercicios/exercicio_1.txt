@@ -1,4 +1,5 @@
 #Q1.O ator/atriz com maior número de filmes e o respectivo número de filmes.
+""" Código para pegar somente a coluna de atores no formato lista """
 lista_nomes = []
 arquivo_csv = open('actors.csv', 'r')
 for linha in arquivo_csv:
@@ -7,6 +8,7 @@ for linha in arquivo_csv:
     
 lista_nomes.pop(0)
 
+"""Código para pegar somente a coluna de numero de filmes em formato lista"""
 
 quantidade = []
 arquivo_csv = open('actors.csv', 'r')
@@ -19,6 +21,8 @@ for linha in arquivo_csv:
     
     
 quantidade.pop(0)
+
+""" Iterando sobre a lista encontrada anteriormente para transformar strings em inteiros """
 
 num_filmes= []
 for i in range(len(quantidade)):
