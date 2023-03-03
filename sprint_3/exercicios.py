@@ -199,7 +199,7 @@ print(my_map(lista, quadrado))
 
 def func(*args,**kwargs):
     for k in args:
-            print (f'{k}')
+        print (f'{k}')
     for x in kwargs.values():
         print (f'{x}')
         
