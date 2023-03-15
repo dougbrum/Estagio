@@ -1,0 +1,56 @@
+Atividade1
+
+a_Conteúdo do arquivo Dockerfile:
+
+FROM python:3
+
+WORKDIR /app
+
+COPY . .
+
+CMD ["python", "app/carguru.py"]
+
+
+b_Comando para buildar a imagem:
+
+docker build -t imagem_carguru .
+
+Dei o nome para a imagem de imagem_carguru
+
+c_Podemos checar a criação da imagem com?
+
+docker images
+
+d_Para rodar o container, basta digitar:
+
+docker run -it imagem_carguru
+
+
+Atividade2
+
+Sim, ele pode ser reutilizado.
+Podemos parar um container utilizando o comando docker stop <id ou nome do container). Mas quando parado esse container pode ser reutilizado. Depois do stop o container não estará mais sendo utilizado, mas permanecerá disponível caso queiramos utilizar em outro momento. Para reiniciar um container já criado, basta utilizar o comando docker start <id do container>. Para conseguir o id do container parado, basta dar um docker ps -a. Exemplo docker start 57c85e05c019
+
+Atividade3
+
+a_Conteúdo do arquivo Dockerfile:
+FROM python:3
+WORKDIR /app
+COPY . .
+CMD ["python", "app/mascarar.py"]
+
+b_arquivo py:
+
+import hashlib
+
+while True:
+string = input("Digite qualquer coisa: ")
+print(hashlib.sha1(string.encode('utf-8')).hexdigest())
+
+c_Comando para buildar a imagem:
+
+docker build -t mascarar-dados .
+
+d_Para rodar o container, basta digitar:
+
+docker run -it mascarar-dados
